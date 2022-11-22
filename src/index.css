@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-purple font-sono min-h-screen;
+}
+
+#root {
+    @apply flex min-h-screen flex-col;
+}
